@@ -10,10 +10,14 @@
 
 ## Порождающие паттерны
 
-- [Singleton](src/creational/singleton) - ограничивает создание объектов определенного класса, 
+- [Singleton](src/creational/singleton/Singleton.java) - ограничивает создание объектов определенного класса, 
 обеспечивая доступ только к одному экземпляру.
-- [Builder](src/creational/builder) - упрощает создание сложных объектов за счет постепенной конфигурации.
-- [Factory](src/creational/factory) - создание определенного класса-наследника супер-класса по входным параметрам
+- [Builder](src/creational/builder/Computer.java) - упрощает создание сложных объектов за счет постепенной конфигурации.
+- [Factory](src/creational/factory/CoffeeFactory.java) - создание определенного класса-наследника 
+супер-класса по входным параметрам.
+- [AbstractFactory](src/creational/abstractfactory/CoffeeFactory.java) - вместо одной фабрики мы используем **одну** 
+из реализаций фабрики в зависимости от параметров. То есть по факту это фабрика фабрик(еще один слой).
+- [Prototype](src/creational/prototype)
 
 ## Структурные паттерны
 
